@@ -1,11 +1,11 @@
 import yfinance as yf
 from datetime import datetime
 
-#define the holdings in the portfolio - ticker, units held, and average price paid
+#define the holdings in the portfolio - ticker, units held, and average price paid (calculated as total invested / units))
 holdings = [
     {"ticker": "ASIA.AX", "units": 267.5603, "avg_price": 5047.80/267.5603},
     {"ticker": "IVV.AX", "units": 247.4956, "avg_price": 16749.99/247.4956},
-    {"ticker": "VEU.AX", "units": 049.3132, "avg_price": 5684.11/49.3132},
+    {"ticker": "VEU.AX", "units": 49.3132, "avg_price": 5684.11/49.3132},
 ]
 
 old_holdings = [
