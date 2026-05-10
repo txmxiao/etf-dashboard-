@@ -3,15 +3,15 @@ from datetime import datetime
 
 #define the holdings in the portfolio - ticker, units held, and average price paid (calculated as total invested / units))
 holdings = [
-    {"ticker": "ASIA.AX", "units": 267.5603, "avg_price": 5047.80/267.5603},
-    {"ticker": "IVV.AX", "units": 247.4956, "avg_price": 16749.99/247.4956},
-    {"ticker": "VEU.AX", "units": 49.3132, "avg_price": 5684.11/49.3132},
+    {"ticker": "ASIA.AX", "units": 267.5603, "avg_price": 18.86602758331486739962},
+    {"ticker": "IVV.AX", "units": 247.4956, "avg_price": 67.67793043593502488875},
+    {"ticker": "VEU.AX", "units": 49.3132, "avg_price": 115.2654867256637061246},
 ]
 
 old_holdings = [
-    {"ticker": "ASIA.AX", "units": 114.0000, "avg_price": 1995/114},
-    {"ticker": "IVV.AX", "units": 246.5587, "avg_price": 16092.90/246.5587},
-    {"ticker": "VEU.AX", "units": 61.6686, "avg_price": 6944.03/61.6686},
+    {"ticker": "ASIA.AX", "units": 114.0000, "avg_price": 17.5},
+    {"ticker": "IVV.AX", "units": 246.5587, "avg_price": 65.27005536612580272049},
+    {"ticker": "VEU.AX", "units": 61.6686, "avg_price": 112.6023616556886253193},
 ]
 
 #define a function to fetch all relevant yfinance data

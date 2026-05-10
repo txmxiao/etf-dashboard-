@@ -56,9 +56,9 @@ Example:
 
 ```python
 holdings = [
-    {"ticker": "ASIA.AX", "units": 267.5603, "avg_price": 5047.80 / 267.5603},
-    {"ticker": "IVV.AX", "units": 247.4956, "avg_price": 16749.99 / 247.4956},
-    {"ticker": "VEU.AX", "units": 49.3132, "avg_price": 5684.11 / 49.3132},
+    {"ticker": "ASIA.AX", "units": 267.5603, "avg_price": 18.86602758331486739962},
+    {"ticker": "IVV.AX", "units": 247.4956, "avg_price": 67.67793043593502488875},
+    {"ticker": "VEU.AX", "units": 49.3132, "avg_price": 115.2654867256637061246},
 ]
 ```
 
