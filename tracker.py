@@ -8,12 +8,6 @@ holdings = [
     {"ticker": "VEU.AX", "units": 49.3132, "avg_price": 115.2654867256637061246},
 ]
 
-old_holdings = [
-    {"ticker": "ASIA.AX", "units": 114.0000, "avg_price": 17.5},
-    {"ticker": "IVV.AX", "units": 246.5587, "avg_price": 65.27005536612580272049},
-    {"ticker": "VEU.AX", "units": 61.6686, "avg_price": 112.6023616556886253193},
-]
-
 #define a function to fetch all relevant yfinance data
 def fetch_price_data(ticker):
     data = yf.Ticker(ticker)
