@@ -12,6 +12,17 @@ The project pulls live price data from Yahoo Finance, calculates portfolio value
 - `icon.png`: App icon image.
 - `ETF Widget.app/`: Automator app bundle used to launch the widget.
 
+## Tools Used
+
+- Python: Main programming language for the tracker.
+- yfinance: Fetches live ETF price data from Yahoo Finance.
+- pandas: Turns portfolio rows into a table for the dashboard.
+- Streamlit: Builds the browser-based dashboard.
+- rumps: Creates the macOS menu bar widget.
+- pyobjc: Lets the widget behave more like a native macOS app.
+- Automator: Packages the widget into a clickable macOS app.
+
+
 ## Setup
 
 Create and activate a virtual environment:
@@ -66,6 +77,6 @@ Use Yahoo Finance ticker symbols. Australian ETFs usually end in `.AX`.
 
 ## Notes
 
-This project depends on Yahoo Finance data through `yfinance`, so price fetching can fail if Yahoo is unavailable, the network is down, or a ticker cannot be resolved.
+This project depends on Yahoo Finance data through `yfinance`, so price fetching can fail if Yahoo is unavailable, the network is down, or a ticker cannot be resolved. Yahoo Finance typically runs on a 15-20 minute delay from true live pricing data.
 
 This dashboard is for personal tracking and learning only. It is not financial advice.

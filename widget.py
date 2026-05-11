@@ -39,7 +39,7 @@ class ETFWidget(rumps.App):
         self.timer = rumps.Timer(self.refresh_timer, 10)
         self.timer.start()
 
-    def refresh_timer(self, _): #this function is called every 60 seconds by the timer to refresh the prices and menu
+    def refresh_timer(self, _): #this function is called every 10 seconds by the timer to refresh the prices and menu
         self.refresh()    
 
 
